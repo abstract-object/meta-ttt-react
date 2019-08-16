@@ -1,0 +1,83 @@
+
+		*, *:before, *:after {
+	  		-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+	 	}
+
+	 	body {
+	 		font-family: "Helvetica", "Arial", sans-serif;
+	 	}
+
+	 	.container {
+	 		overflow: hidden;
+	 		width:1000px;
+	 		margin:0 auto; 
+	 	}
+
+	 	h1 {
+	 		text-align: center;
+	 		font-size: 50px;
+	 	}
+
+	 	p.player {
+	 		float: left;
+	 		width: 200px;
+	 		margin: 30px 0 0 30px;
+	 		font-size: 20px;
+	 	}
+
+	 	button {
+	 		font-size: 20px;
+	 		padding: 10px;
+	 		border: none;
+			background: #d12026;
+			color: #fff;
+			cursor: pointer;
+			float: right;
+			margin-top: 20px;
+			width:157px;
+	 	}
+		button:hover {
+			color: #222;
+		}
+
+		.grid {
+			width: 300px;
+			padding: 15px;
+			overflow: hidden;
+			border-radius: 5px;
+			background: #222;
+			float:left;
+			margin:10px;
+			height:300px;
+		}
+
+		.square {
+			width: 66px;
+			height: 65px;
+			float: left;
+			border-radius: 50%;
+			margin: 12px;
+			font-size: 67px;
+			line-height: 65px;
+			color: #d12026;
+			background: #fff;
+			cursor: pointer;
+			transition: all 0.3s;
+			padding-left:5px;
+		}
+
+		.square:hover {
+			transform: scale(1.05);
+		}
+
+		.bigGrid {
+			box-sizing:border-box;
+			width:1000px;
+			margin:0 auto;
+		}
+
+		.red {
+			background:rgb(209,32,38);
+		}
+
+	
